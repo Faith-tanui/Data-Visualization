@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.title("Power BI Report in Streamlit")
-st.text()
 
 # Embed Power BI iframe
 components.html(
