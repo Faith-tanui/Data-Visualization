@@ -26,7 +26,7 @@ st.header("💡 About Me")
 col1, col2 = st.columns([1, 2], gap="large")
 
 with col1:
-    st.image("/Users/faithcherono/Desktop/Job Applications/Important documents/Faith Cherono - Passport Photo.jpg", width=250, caption="Faith Cherono", use_container_width=False)
+    st.image("Images/my_photo.jpg", width=250, caption="Faith Cherono", use_container_width=False)
 
 with col2:
     st.markdown("""
