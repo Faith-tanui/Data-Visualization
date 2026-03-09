@@ -128,7 +128,7 @@ with col4:
      """)
 
     if st.button("Open Retail Sales Dashboard", key="sales_dashboard"):
-        st.switch_page("./pages/sales_dashboard.py")
+        st.switch_page("pages/sales_dashboard.py")
 
 
 st.markdown("---")
