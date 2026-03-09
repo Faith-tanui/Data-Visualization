@@ -128,8 +128,7 @@ with col4:
      - Market basket analysis  
      """)
 
-    if st.button("Open Sales Dashboard"):
-        st.switch_page("pages/sales_dashboard.py")
+    st.info("Explore the **Retail Sales Dashboard** using the sidebar navigation.")
 
 
 st.markdown("---")
