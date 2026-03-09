@@ -75,6 +75,7 @@ st.markdown("---")
 st.header("📊 Featured Projects")
 
 col1, col2, col3 = st.columns(3)
+col4, col5, col6=st.columns(3)
 
 with col1:
     st.subheader("Olist Market Place Dashboard")
@@ -111,6 +112,25 @@ with col3:
         """,
         height=420,
     )
+with col4:
+    st.subheader("Retail Sales Performance Analysis")
+    st.write(
+        "An end-to-end analysis of retail sales data exploring revenue trends, "
+        "regional performance, discount impact, and product portfolio insights."
+    )
+
+    st.markdown("📈 **Key Analysis:**")
+    st.markdown("""
+     - Revenue trends over time  
+     - Regional sales performance  
+     - Discount impact on profitability  
+     - Product portfolio analysis  
+     - Market basket analysis  
+     """)
+
+    if st.button("Open Sales Dashboard"):
+        st.switch_page("pages/sales_dashboard.py")
+
 
 st.markdown("---")
 
