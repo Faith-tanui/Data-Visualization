@@ -124,11 +124,11 @@ with col4:
      - Revenue trends over time  
      - Regional sales performance  
      - Discount impact on profitability  
-     - Product portfolio analysis  
-     - Market basket analysis  
+     - Product portfolio analysis    
      """)
 
-    st.info("Explore the **Retail Sales Dashboard** using the sidebar navigation.")
+    if st.button("Open Retail Sales Dashboard", key="sales_dashboard"):
+        st.switch_page("pages/sales_dashboard.py")
 
 
 st.markdown("---")
