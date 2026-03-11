@@ -75,7 +75,7 @@ st.markdown("---")
 st.header("📊 Featured Projects")
 
 col1, col2, col3 = st.columns(3)
-col4, col5, col6=st.columns(3)
+col4, col5, col6 = st.columns(3)
 
 with col1:
     st.subheader("Olist Market Place Dashboard")
@@ -129,7 +129,27 @@ with col4:
 
     if st.button("Open Retail Sales Dashboard", key="sales_dashboard"):
         st.switch_page("pages/sales_dashboard.py")
-        st.page_link
+
+with col5:
+    st.subheader("E-commerce A/B Testing Experiment")
+
+    st.write(
+        "A statistical experiment evaluating whether a redesigned e-commerce "
+        "landing page improves customer conversion rates."
+    )
+
+    st.markdown("🧪 **Key Analysis:**")
+
+    st.markdown("""
+    - Experiment traffic validation  
+    - Conversion rate comparison  
+    - Statistical hypothesis testing  
+    - Confidence interval estimation  
+    - Conversion analysis by country  
+    """)
+
+    if st.button("Open A/B Testing Dashboard", key="ab_dashboard"):
+        st.switch_page("pages/ab_test_dashboard.py")
 
 
 st.markdown("---")
