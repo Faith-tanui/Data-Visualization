@@ -14,9 +14,9 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("[📧 Email Me](mailto:faith.cherono@outlook.com)")
 with col2:
-    st.markdown("[💼 LinkedIn](https://www.linkedin.com/in/faithcherono)")  # Replace with your actual LinkedIn
+    st.markdown("[💼 LinkedIn](https://www.linkedin.com/in/faith-cherono-tanui-0602621a4/)")
 with col3:
-    st.markdown("[🐙 GitHub](https://github.com/faithcherono)")  # Replace with your GitHub username
+    st.markdown("[🐙 GitHub](https://github.com/Faith-tanui/Data-Analysis)")
 
 st.markdown("---")
 
@@ -26,20 +26,20 @@ st.header("💡 About Me")
 col1, col2 = st.columns([1, 2], gap="large")
 
 with col1:
-    st.image("Images/my_photo.jpg", width=250, caption="Faith Cherono", use_container_width=False)
+    st.image("Images/my_photo.jpg", width=250, use_container_width=False)
 
 with col2:
     st.markdown("""
     I’m **Faith Cherono**, a data analyst passionate about transforming data into meaningful insights and clear business strategy.  
-    My work focuses on helping organizations **see beyond the numbers**  identifying patterns, solving problems,  
+    My work focuses on helping organizations see beyond the numbers  identifying patterns, solving problems,  
     and driving smarter decisions through data storytelling.
 
-    I love building **interactive dashboards** and **automated analytics workflows** that reveal what truly drives performance.  
+    I love building **interactive dashboards** and automated analytics workflows that reveal what truly drives performance.  
     Using tools like **Power BI**, **SQL**, and **Python**, I bring together the precision of data with the clarity of design  
     turning complex information into visual stories that inspire action.
 
     When I’m not analyzing data, I’m exploring new ways to make insights more human   
-    because great analytics doesn’t just inform decisions, it **shapes how we understand the world**.
+    because great analytics doesn’t just inform decisions, it shapes how we understand the world.
     """)
 
 st.info("“Good data tells you what happened. Great analysis tells you what to do next.”")
